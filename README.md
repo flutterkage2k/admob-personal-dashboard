@@ -50,7 +50,7 @@
 
 #### 2.1 저장소 클론
 ```bash
-git clone https://github.com/yourusername/admob-personal-dashboard.git
+git clone https://github.com/flutterkage2k/admob-personal-dashboard.git
 cd admob-personal-dashboard
 ```
 
