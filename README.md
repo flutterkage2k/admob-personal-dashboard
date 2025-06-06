@@ -1,8 +1,21 @@
 # AdMob 개인 수익 대시보드
 
-개인용 AdMob 수익을 실시간으로 확인할 수 있는 Flutter 앱입니다. Google AdMob Reporting API를 사용하여 일별 수익, 클릭, 노출 데이터를 조회합니다.
+개인용 AdMob 수익을 실시간으로 확인할 수 있는 Flutter 앱입니다. 
+Google cloud console + AdMob API를 사용하여 일별 수익, 클릭, 노출 데이터를 조회합니다.
 
 ![Image](https://github.com/user-attachments/assets/55680ba4-f5f2-4385-a2d4-4370d4fd66ec)
+
+## 기본정보 
+---
+
+**마지막 업데이트**: 2025-06-06  
+**버전**: v1.0  
+**작성자**: Heesung Jin (kage2k)
+**IOS에서 빌드 하였습니다** 
+
+주의! flutter 이라서 android 에서도 가능하다고 보입니다만, Google cloud console api 부분의 sha1 key 부분등 해결해야합니다. 
+
+---
 
 ## 📱 주요 기능
 
@@ -281,14 +294,6 @@ README.md                             # 이 문서
 
 ### 지원 기기
 - iPhone: iOS 14.0 이상
-- iPad: iPadOS 14.0 이상
-- 모든 화면 크기 대응
-
-### iOS 최적화
-- Dark Mode 자동 대응
-- Dynamic Type 지원
-- VoiceOver 접근성 지원
-- Hand off 준비 (향후 Mac 연동)
 
 ## 📜 라이선스
 
