@@ -2,6 +2,7 @@
 
 개인용 AdMob 수익을 실시간으로 확인할 수 있는 Flutter 앱입니다. Google AdMob Reporting API를 사용하여 일별 수익, 클릭, 노출 데이터를 조회합니다.
 
+![Image](https://github.com/user-attachments/assets/55680ba4-f5f2-4385-a2d4-4370d4fd66ec)
 
 ## 📱 주요 기능
 
@@ -130,8 +131,14 @@ flutter run -d ios
 ```bash
 # iOS (App Store 배포용은 불가)
 flutter build ios --release
-
+or 
+flutter build ipa --export-method ad-hoc
 ```
+
+### 디바이스에 넣는 방법
+1. 본인의 iphone 을 usb 등으로 컴퓨터와 연결
+2. 위 ipa 파일이 생성되면 xcode > windows > Device and simulators > 
+3. installed app 에 + 를 눌러 ipa를 찾거나 2에서 만든 ipa 를 드롭
 
 ## 📱 사용 방법
 
