@@ -103,16 +103,6 @@ ADMOB_PUBLISHER_ID=pub-your-publisher-id-here
 
 > ⚠️ **주의**: 기존에 `client_*.plist` 파일이 있다면 삭제하세요. Info.plist 방식과 충돌할 수 있습니다.
 
-**방법 2: Firebase 설정 (선택 사항)**
-
-Firebase를 사용하는 경우:
-1. [Firebase Console](https://console.firebase.google.com/)에서 프로젝트 생성
-2. iOS 앱 추가 (번들 ID: 실제 사용할 ID)
-3. `GoogleService-Info.plist` 다운로드
-4. `ios/Runner/` 폴더에 파일 복사
-5. Xcode에서 프로젝트 열고 **Add Files to "Runner"**로 추가
-
-> ⚠️ **주의**: 방법 1과 방법 2 중 하나만 선택하세요. 둘 다 사용하면 충돌할 수 있습니다.
 
 
 ### 3단계: AdMob 계정 연결
